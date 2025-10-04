@@ -119,6 +119,7 @@
     <element xsi:type="archimate:Resource" name="Vergunningen" id="id-8fa2d90de7a6475b920d706a20eac62c"/>
     <element xsi:type="archimate:Resource" name="Machinisten" id="id-cbdcb23ab13e4c469acd860e79d9a305"/>
     <element xsi:type="archimate:Resource" name="Intakers" id="id-1ebcfa2e6a8340d3a23837352970853a"/>
+    <element xsi:type="archimate:Resource" name="test" id="id-82fff21a47194774a18a80818e144fae"/>
   </folder>
   <folder name="Business" id="id-125c2cdd6a3e46d6b6f8205600835e1c" type="business"/>
   <folder name="Application" id="id-f5b7c1ecef2245c0a4cc06a1f8eef7f1" type="application"/>
@@ -388,6 +389,9 @@
           <bounds x="464" y="386" width="263" height="93"/>
           <feature name="deriveElementLineColor" value="false"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-42331b7b0bf74ef9af0b41d648de51d7" lineColor="#000000" source="id-1e851449c5eb41ce9f9e31a2516f9d73" target="id-95d05f8e754244b6b9b6e94821f14cd8" archimateRelationship="rel_vsflow_2"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-6cd6bcb08e1a40e0aa258fd46db68668" archimateElement="id-82fff21a47194774a18a80818e144fae">
+          <bounds x="388" y="631" width="120" height="55"/>
         </child>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="02_Afvalverwerking - capabilities" id="id-98a811c24ce2476daa8bafc39f2176e8" viewpoint="capability">
